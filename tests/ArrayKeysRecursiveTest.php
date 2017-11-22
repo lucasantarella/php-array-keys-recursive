@@ -82,7 +82,6 @@ class ArrayKeysRecursiveTest extends \PHPUnit_Framework_TestCase
 	public function testGetKeysWithDepth()
 	{
 		$output = ArrayKeysRecursive::getKeys(self::$testArray, 2);
-		var_export($output);
 		$this->assertEquals([
 			'person' => [
 				'name' => [],
