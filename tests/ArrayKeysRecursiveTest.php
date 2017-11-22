@@ -3,7 +3,6 @@
 namespace LucaSantarella\Tests;
 
 use LucaSantarella\ArrayKeysRecursive;
-use PHPUnit\Framework\TestCase;
 
 /**
  *  Corresponding Class to test YourClass class
@@ -13,7 +12,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @author yourname
  */
-class ArrayKeysRecursiveTest extends TestCase
+class ArrayKeysRecursiveTest extends \PHPUnit_Framework_TestCase
 {
 
 	/**
