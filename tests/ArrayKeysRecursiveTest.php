@@ -73,7 +73,7 @@ class ArrayKeysRecursiveTest extends \PHPUnit_Framework_TestCase
 	/**
 	 * Test basic recursive array keys.
 	 *
-	 * Infinite depth.
+	 * 2 layers depth limit.
 	 *
 	 */
 	public function testGetKeysWithDepth()
