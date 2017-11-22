@@ -1,5 +1,5 @@
 {
-  "name": "lucasantarella/arraykeysrecursive",
+  "name": "lucasantarella/php-array-keys-recursive",
   "version": "1.0.0",
   "description": "Library to get array keys of a multidimensional array, retaining the original arary structure.",
   "keywords": [
