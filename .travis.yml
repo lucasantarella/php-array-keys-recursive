@@ -1,4 +1,9 @@
 language: php
+sudo: false
+cache:
+  directories:
+    - $HOME/.composer/cache
+    - vendor
 php:
   - 5.4
   - 5.5
@@ -7,6 +12,9 @@ php:
   - 7.1
   - hhvm
   - nightly
-
+before_install:
+  - phpenv config-rm xdebug.ini || return 0
 install:
-  - composer install --no-interaction --dev
+  - composer install --no-interaction
+script:
+- vendor/bin/phpunit # This is implied, but just to be safe.

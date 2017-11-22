@@ -14,10 +14,14 @@
   "authors": [
     {
       "name": "Luca Santarella",
-      "email": "luca.santarella@gmail.com"
+      "email": "luca.santarella@gmail.com",
+      "homepage": "https://www.lucasantarella.com"
     }
   ],
-  "require": {},
+  "homepage": "https://github.com/lucasantarella/php-array-keys-recursive",
+  "require": {
+    "php":">=5.4.0"
+  },
   "require-dev": {
     "phpunit/phpunit": "^4.0"
   },
