@@ -1,0 +1,21 @@
+{
+  "name": "lucasantarella/arraykeysrecursive",
+  "version": "1.0.0",
+  "description": "Library to get array keys of a multidimensional array, retaining the original arary structure.",
+  "keywords": [
+    "array",
+    "php",
+    "array_keys",
+    "recursive",
+    "multidimensional"
+  ],
+  "type": "library",
+  "license": "AGPL-3.0+",
+  "authors": [
+    {
+      "name": "Luca Santarella",
+      "email": "luca.santarella@gmail.com"
+    }
+  ],
+  "require": {}
+}
