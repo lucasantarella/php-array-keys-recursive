@@ -5,12 +5,9 @@ namespace LucaSantarella\Tests;
 use LucaSantarella\ArrayKeysRecursive;
 
 /**
- *  Corresponding Class to test YourClass class
+ * ArrayKeysRecursive test suite
  *
- *  For each class in your library, there should be a corresponding Unit-Test for it
- *  Unit-Tests should be as much as possible independent from other test going on.
- *
- * @author yourname
+ * @author Luca Santarella
  */
 class ArrayKeysRecursiveTest extends \PHPUnit_Framework_TestCase
 {
